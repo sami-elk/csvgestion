@@ -10,7 +10,7 @@ import seaborn as sns #Data Visualization library based on matplotlib
 import base64
 import codecs
 import streamlit.components.v1 as stc 
-import preprojet
+from preprojet import *
 def main():
     global file
     menu=["Accueil","Information","Filtrage","Diagramme"]
